@@ -24,6 +24,7 @@ body {
   width: 80%;
   min-height: 50vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -31,4 +32,18 @@ body {
 .clock {
   border: 1px black solid;
   font-size: 80px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 }
+
+/*
+.time {
+  border: 1px black solid;
+  font-size: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+*/
