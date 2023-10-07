@@ -27,3 +27,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.clock {
+  border: 1px black solid;
+  font-size: 80px;
+}
