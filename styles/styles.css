@@ -14,7 +14,16 @@ body {
   min-height: 100vh;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
+}
+
+.container {
+  border: 1px black solid;
+  width: 80%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
