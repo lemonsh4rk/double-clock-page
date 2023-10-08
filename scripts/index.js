@@ -25,11 +25,11 @@ let mxOffset = -6; // UTC of Mexico
 let mx = utc + (3600000 * mxOffset);
 let mxTimeNow = new Date(mx); // <-- current mexican hour
 
-clHrs.innerHTML = clTimeNow.getHours();
-clMin.innerHTML = clTimeNow.getMinutes();
-clSec.innerHTML = clTimeNow.getSeconds();
+clHrs.innerHTML = ('0'+clTimeNow.getHours()).slice(-2);
+clMin.innerHTML = ('0'+clTimeNow.getMinutes()).slice(-2);
+clSec.innerHTML = ('0'+clTimeNow.getSeconds()).slice(-2);
 
-mxHrs.innerHTML = mxTimeNow.getHours();
-mxMin.innerHTML = mxTimeNow.getMinutes(); 
-mxSec.innerHTML = mxTimeNow.getSeconds();
-},1000);
+mxHrs.innerHTML = ('0'+mxTimeNow.getHours()).slice(-2);
+mxMin.innerHTML = ('0'+mxTimeNow.getMinutes()).slice(-2); 
+mxSec.innerHTML = ('0'+mxTimeNow.getSeconds()).slice(-2);
+},1000);    
