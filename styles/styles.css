@@ -47,7 +47,6 @@ body {
 }
 
 .clock span::after {
-  content: "HORA";
   font-size: 16px;
   position: absolute;
   bottom: -10px;
@@ -55,13 +54,14 @@ body {
   transform: translateX(-50%);
 }
 
-/*
-.time {
-  border: 1px black solid;
-  font-size: 30px;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
+.hrs::after {
+  content: "HORA";
 }
 
-*/
+.min::after {
+  content: "MINUTOS";
+}
+
+.sec::after {
+  content: "SEGUNDOS";
+}
