@@ -63,3 +63,8 @@ body {
 .sec::after {
   content: "SEGUNDOS";
 }
+
+.title {
+  font-size: 24px;
+  font-weight: bolder;
+}
